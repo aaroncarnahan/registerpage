@@ -1,0 +1,84 @@
+
+body {
+    background-color: #64b7ff;
+}
+
+#about, #register {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    float: right;
+
+}
+
+#topbar {
+    z-index: 0;
+    margin: 0 auto;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    
+}
+
+#formOuter {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;  
+    background-color: white;
+    text-align: center;
+    width: 440px;
+    height: 570px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    box-shadow: 3px 3px 15px rgb(175, 175, 175);
+}
+
+#emailBox, #usernameBox, #passwordBox, #passwordConfirmBox {
+    width: 358px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#SignUp {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 40px;
+    margin-top: 45px;
+
+}
+
+button[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #0080ff;
+    width: 358px;
+    height: 38px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+
+.fa {
+    color: white;
+    background-color: #64b7ff;
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
